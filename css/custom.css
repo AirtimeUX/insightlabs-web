@@ -1,0 +1,42 @@
+/* primary blue: #007bff */
+/* our teal: #006476 */
+
+/*
+// NEW COLORS
+$white: #fff;
+$light-teal: #e7f0f1;
+$teal: #006476; // rgba(0, 100, 118, 0.24)
+$dark-teal: #005261; // rgba(0, 82, 97, 0.08);
+$grey-1: #c2c2c2;
+$grey-2: #a5a4aa;
+$grey-3: #d5d3dd;
+$dark-grey-1: #626566;
+$dark-grey-2: #363539; // orsi text
+$dark-blue: #100035; // orsi gradient left
+$orsi-light-blue: #4a7da6; // orsi gradient right
+*/
+
+:root {
+  --primary-color: #006476;
+}
+
+.site-logo svg {
+  fill: var(--primary-color);
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.site-logo a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-primary {
+  color: var(--primary-color)!important;
+}
+
+a {
+   color: var(--primary-color);
+}
