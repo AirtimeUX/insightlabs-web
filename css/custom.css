@@ -31,6 +31,10 @@ $orsi-light-blue: #4a7da6; // orsi gradient right
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  font-size: 32px;
+  /*color: var(--primary-color)!important;*/
 }
 
 .text-primary {
@@ -39,4 +43,49 @@ $orsi-light-blue: #4a7da6; // orsi gradient right
 
 a {
    color: var(--primary-color);
+}
+
+.sponsor-image {
+  height: 160px;
+}
+
+.site-blocks-cover {
+  /*padding-top: 105px;*/
+}
+
+.main-cta {
+  width: 160px;
+}
+
+.hero-image {
+  position: absolute;
+  padding-top: 105px;
+  width: 130%;
+  left: -30%;
+}
+
+.hero-container {
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-image {
+    position: absolute;
+    width: 120%;
+    left: -20%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero-image {
+    position: static;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    position: static;
+    width: 100%;
+  }
 }
