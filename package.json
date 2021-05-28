@@ -1,11 +1,22 @@
 {
   "name": "insightlabs-web",
   "version": "1.0.0",
-  "description": "Thank you for using our template!",
-  "main": "index.js",
+  "description": "InsightLabs Landing Page",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass ./scss/style.scss ./css/style.css --quiet",
+    "dev": "sass ./scss/style.scss ./css/style.css --quiet --watch"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Marton Csikos <marton@insight-labs.io>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martoncsikos/insightlabs-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martoncsikos/insightlabs-web/issues"
+  },
+  "homepage": "https://github.com/martoncsikos/insightlabs-web#readme",
+  "devDependencies": {
+    "sass": "^1.34.0"
+  }
 }
