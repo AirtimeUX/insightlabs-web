@@ -38,3 +38,8 @@ html, body, .site-wrap {
     width: 100%;
   }
 }
+
+.btn.btn-primary:active, .btn.btn-primary:focus {
+  background-color: darken($primary, 10%) !important;
+  border-color: darken($primary, 10%) !important;
+}

@@ -42,6 +42,11 @@ html, body, .site-wrap {
   }
 }
 
+.btn.btn-primary:active, .btn.btn-primary:focus {
+  background-color: #003943 !important;
+  border-color: #003943 !important;
+}
+
 /* Base */
 body {
   line-height: 1.7;
