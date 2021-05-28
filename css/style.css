@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* InsightLabs Custom */
-html, body, .site-wrap {
-  overflow-x: hidden;
-}
-
 .sponsor-image {
   height: 160px;
 }
